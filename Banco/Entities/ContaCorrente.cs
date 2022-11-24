@@ -17,5 +17,11 @@ namespace Banco.Entities
             origem.sacar(valor);
             origem.depositar(valor);
         }
+
+        public float obterSaldo()
+        {
+            return saldo;
+        }
+
     }
 }
